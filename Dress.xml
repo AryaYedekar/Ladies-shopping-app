@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dress">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F1E36B"
+        >
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:text="Shopoholic"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/cart"
+            android:backgroundTint="#F1E36B"
+            android:id="@+id/cartb1"
+            android:onClick="add"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/b1"
+            android:layout_width="100dp"
+            android:layout_height="155dp"
+            android:onClick="cb1"
+            android:src="@drawable/c2" />
+
+        <ImageButton
+            android:id="@+id/b2"
+            android:layout_width="100dp"
+            android:layout_height="155dp"
+            android:onClick="cb2"
+            android:src="@drawable/jwellery" />
+
+        <ImageButton
+            android:id="@+id/b3"
+            android:layout_width="100dp"
+            android:layout_height="155dp"
+            android:onClick="cb3"
+            android:src="@drawable/h1" />
+
+        <ImageButton
+            android:id="@+id/b4"
+            android:layout_width="100dp"
+            android:layout_height="155dp"
+            android:onClick="cb4"
+            android:src="@drawable/m1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/d2"
+            />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="BerryBlush Bottel Green Gown           Rs 1500/"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#009688"
+                android:text="Add"
+                android:id="@+id/db1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/d7" />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="Shien Casual Joggers              Rs 999/"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#009688"
+                android:text="Add"
+                android:id="@+id/db2"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/d6" />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="Mint Green Designer Dhoti Saree        Rs 1390/"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#009688"
+                android:text="Add"
+                android:id="@+id/db3"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/d5" />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="Blush Pink Short Dress                Rs 650/"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#009688"
+                android:text="Add"
+                android:id="@+id/db4"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F1E36B"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:text="Shopoholic"
+                android:textColor="@color/black"
+                android:textSize="40dp" />
+
+            <ImageButton
+                android:id="@+id/cartb1"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="#F1E36B"
+                android:onClick="add"
+                android:src="@drawable/cart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/b1"
+                android:layout_width="100dp"
+                android:layout_height="155dp"
+                android:onClick="cb1"
+                android:src="@drawable/c2" />
+
+            <ImageButton
+                android:id="@+id/b2"
+                android:layout_width="100dp"
+                android:layout_height="155dp"
+                android:onClick="cb2"
+                android:src="@drawable/jwellery" />
+
+            <ImageButton
+                android:id="@+id/b3"
+                android:layout_width="100dp"
+                android:layout_height="155dp"
+                android:onClick="cb3"
+                android:src="@drawable/h1" />
+
+            <ImageButton
+                android:id="@+id/b4"
+                android:layout_width="100dp"
+                android:layout_height="155dp"
+                android:onClick="cb4"
+                android:src="@drawable/m1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imgslider"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:background="@drawable/s1"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/s4"></LinearLayout>
+    </LinearLayout>
+</ScrollView>
